@@ -1,0 +1,11 @@
+<p>second-component works!</p>
+@if (status) {
+  <p>Sucesso Mensagem</p>
+}
+
+@if(!status){
+  <p>Falha Mensagem</p>
+}
+
+<p *ngIf="status">Sucesso 2</p>
+<p *ngIf="!status">Falha 2</p>
